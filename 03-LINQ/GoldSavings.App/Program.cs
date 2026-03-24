@@ -67,6 +67,16 @@ class Program
             throw new Exception("Wrong implementation of saving and reading gold prices.");
         }
 
+        // Task 2 1
+        Func<int, bool> isLeap = x => (x % 4 == 0 && !(x % 100 == 0)) || x % 400 == 0;
+        
+        Console.WriteLine();
+        List<int> years = [2000, 2004, 2005, 1900, 2026, 2028];
+        foreach (int year in years)
+        {
+            Console.WriteLine($"Year {year} is {(isLeap(year) ? "" : "not ")}leap.");
+        }
+
         // Step 3: Print results
         GoldResultPrinter.PrintSingleValue(Math.Round(avgPrice, 2), "Average Gold Price Last Half Year");
         GoldResultPrinter.PrintPrices(greatestPrices, "TOP 3 highest prices");
