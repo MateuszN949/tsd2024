@@ -1,0 +1,95 @@
+# 1.1
+def factorial(number)
+  (1..number).inject(1) { |a, b| a * b }
+end
+
+puts factorial 5
+
+# 1.2
+class Integer
+  def factorial
+    raise "Runtime error: cannot count factorial for negative number" if self < 0
+    (1..self).inject(1) { |a, b| a * b }
+  end
+end
+
+puts 5.factorial
+# -1.factorial
+
+# 1.3
+module InstanceModule
+  def square
+    self * self
+  end
+end
+
+class Integer
+  include InstanceModule
+end
+
+puts 5.square
+
+# 1.4
+module ClassModule
+  def sample(arg)
+    raise ArgumentError.new("ArgumentError: the number must be positive") unless arg > 0
+    (1..arg).collect { rand(20) + 1 }
+  end
+end
+
+class Integer
+  extend ClassModule
+end
+
+puts Integer.sample(3).to_s
+# Integer.sample(-1)
+
+# 1.5
+module ClassModule
+  alias random sample
+end
+
+puts Integer.random(3).to_s
+
+# 2.1
+def min_max(arr)
+  puts (arr.sum - arr.max).to_s + " " + (arr.sum - arr.min).to_s
+end
+
+min_max([1, 2, 3, 4, 5])
+min_max([2, 8, 3, 5, 1])
+
+# 2.2
+def decimal(bin)
+  bin = bin.split("").collect { |a| a.to_i }
+  raise ArgumentError.new("ArgumentError: this is not a binary number") unless bin.uniq.sort == [0, 1]
+  bin.inject do |sum, num|
+    sum = sum * 2
+    sum += num
+  end
+end
+
+puts decimal("101")
+# puts decimal("231")
+
+# 2.3
+def count_words(str)
+  str = str.split(" ")
+  h = Hash.new
+  str.uniq.each do |word|
+    h[word] = str.count(word)
+  end
+  h
+end
+
+puts count_words("olly olly come here free")
+
+# 2.4
+def pangram?(sentence)
+  sentence.downcase.split("").uniq.sort.join.to_s.include?("abcdefghijklmnopqrstuvwxyz")
+end
+
+puts pangram?("The quick brown fox jumps over the lazy dog.")
+puts pangram?("abde")
+
+# 3.1

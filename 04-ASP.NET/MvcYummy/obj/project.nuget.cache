@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1V5Bu3xr5Ko=",
+  "dgSpecHash": "vhWJC3W7lLI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\mateu\\Documents\\sem8\\Technologies of Software Development\\Labs\\asp_net\\MvcYummy\\MvcYummy.csproj",
+  "projectFilePath": "C:\\Users\\mateu\\Documents\\sem8\\Technologies of Software Development\\Labs\\tsd2024\\04-ASP.NET\\MvcYummy\\MvcYummy.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mateu\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\mateu\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",
@@ -140,10 +140,10 @@
     {
       "code": "NU1901",
       "level": "Warning",
-      "message": "Package 'NuGet.Packaging' 6.12.1 has a known low severity vulnerability, https://github.com/advisories/GHSA-g4vj-cjjj-v7hg",
-      "projectPath": "C:\\Users\\mateu\\Documents\\sem8\\Technologies of Software Development\\Labs\\asp_net\\MvcYummy\\MvcYummy.csproj",
+      "message": "Pakiet „NuGet.Packaging” 6.12.1 ma znane niska luki w zabezpieczeniach o ważności, https://github.com/advisories/GHSA-g4vj-cjjj-v7hg",
+      "projectPath": "C:\\Users\\mateu\\Documents\\sem8\\Technologies of Software Development\\Labs\\tsd2024\\04-ASP.NET\\MvcYummy\\MvcYummy.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\mateu\\Documents\\sem8\\Technologies of Software Development\\Labs\\asp_net\\MvcYummy\\MvcYummy.csproj",
+      "filePath": "C:\\Users\\mateu\\Documents\\sem8\\Technologies of Software Development\\Labs\\tsd2024\\04-ASP.NET\\MvcYummy\\MvcYummy.csproj",
       "libraryId": "NuGet.Packaging",
       "targetGraphs": [
         "net10.0"
@@ -152,10 +152,10 @@
     {
       "code": "NU1901",
       "level": "Warning",
-      "message": "Package 'NuGet.Protocol' 6.12.1 has a known low severity vulnerability, https://github.com/advisories/GHSA-g4vj-cjjj-v7hg",
-      "projectPath": "C:\\Users\\mateu\\Documents\\sem8\\Technologies of Software Development\\Labs\\asp_net\\MvcYummy\\MvcYummy.csproj",
+      "message": "Pakiet „NuGet.Protocol” 6.12.1 ma znane niska luki w zabezpieczeniach o ważności, https://github.com/advisories/GHSA-g4vj-cjjj-v7hg",
+      "projectPath": "C:\\Users\\mateu\\Documents\\sem8\\Technologies of Software Development\\Labs\\tsd2024\\04-ASP.NET\\MvcYummy\\MvcYummy.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\mateu\\Documents\\sem8\\Technologies of Software Development\\Labs\\asp_net\\MvcYummy\\MvcYummy.csproj",
+      "filePath": "C:\\Users\\mateu\\Documents\\sem8\\Technologies of Software Development\\Labs\\tsd2024\\04-ASP.NET\\MvcYummy\\MvcYummy.csproj",
       "libraryId": "NuGet.Protocol",
       "targetGraphs": [
         "net10.0"

@@ -6466,11 +6466,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mateu\\Documents\\sem8\\Technologies of Software Development\\Labs\\asp_net\\MvcYummy\\MvcYummy.csproj",
+      "projectUniqueName": "C:\\Users\\mateu\\Documents\\sem8\\Technologies of Software Development\\Labs\\tsd2024\\04-ASP.NET\\MvcYummy\\MvcYummy.csproj",
       "projectName": "MvcYummy",
-      "projectPath": "C:\\Users\\mateu\\Documents\\sem8\\Technologies of Software Development\\Labs\\asp_net\\MvcYummy\\MvcYummy.csproj",
+      "projectPath": "C:\\Users\\mateu\\Documents\\sem8\\Technologies of Software Development\\Labs\\tsd2024\\04-ASP.NET\\MvcYummy\\MvcYummy.csproj",
       "packagesPath": "C:\\Users\\mateu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mateu\\Documents\\sem8\\Technologies of Software Development\\Labs\\asp_net\\MvcYummy\\obj\\",
+      "outputPath": "C:\\Users\\mateu\\Documents\\sem8\\Technologies of Software Development\\Labs\\tsd2024\\04-ASP.NET\\MvcYummy\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mateu\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -6970,7 +6970,7 @@
       "code": "NU1901",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'NuGet.Packaging' 6.12.1 has a known low severity vulnerability, https://github.com/advisories/GHSA-g4vj-cjjj-v7hg",
+      "message": "Pakiet „NuGet.Packaging” 6.12.1 ma znane niska luki w zabezpieczeniach o ważności, https://github.com/advisories/GHSA-g4vj-cjjj-v7hg",
       "libraryId": "NuGet.Packaging",
       "targetGraphs": [
         "net10.0"
@@ -6980,7 +6980,7 @@
       "code": "NU1901",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'NuGet.Protocol' 6.12.1 has a known low severity vulnerability, https://github.com/advisories/GHSA-g4vj-cjjj-v7hg",
+      "message": "Pakiet „NuGet.Protocol” 6.12.1 ma znane niska luki w zabezpieczeniach o ważności, https://github.com/advisories/GHSA-g4vj-cjjj-v7hg",
       "libraryId": "NuGet.Protocol",
       "targetGraphs": [
         "net10.0"

@@ -1,0 +1,41 @@
+<UserControl x:Class="WPF.BookDetailsControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:local="clr-namespace:WPF"
+             mc:Ignorable="d">
+
+    <Border BorderBrush="Gray"
+            BorderThickness="1"
+            Padding="10"
+            Margin="10">
+
+        <StackPanel>
+
+            <TextBox Text="{Binding Title, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+
+            <TextBox Text="{Binding Author, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+
+            <TextBox Text="{Binding Year, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+
+            <ComboBox
+                ItemsSource="{x:Static local:BookFormatValues.All}"
+                SelectedItem="{Binding Format, Mode=TwoWay}" />
+
+            <CheckBox Content="Read"
+                IsChecked="{Binding IsRead, Mode=TwoWay}" />
+            
+            <TextBlock Text="{Binding Id}"
+                Margin="0,10,0,0"
+                FontStyle="Italic" />
+
+            <Button Content="Delete"
+                Margin="0,10,0,0"
+                Click="OnDeleteClick"/>
+
+        </StackPanel>
+
+    </Border>
+
+</UserControl>
